@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans:wght@400;700&family=Roboto+Condensed&family=Zen+Dots&display=swap');
+
+* { /* Clear Defaults */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  /* Google Fonts */
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Zen Dots', cursive;
+}
+
+#root {
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.App {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100vh;
+  max-width: 800px;
+  border: 1px solid black;
+  box-shadow:	0px 0px 11px 1px rgba(0,0,0,0.14);
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul a {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul a.active,
+nav ul a:hover {
+  color: black;
+  background-color: white;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.searchForm > label {
+  display: none;
+}
+
+.searchForm > input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  min-height: 100vh;
+}
+
+article {
+  width: 100%;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.post a {
+  font-size: 1.4rem;
+  color: black;
+  text-decoration: none;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post p:first-child {
+  color: #999999;
+  font-size: 0.6rem;
+}
+
+.post p {
+  padding-top: 10px;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 15px 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: red;
+  border: 2px solid black;
+  transition: all 500ms ease;
+}
+
+.editBtn:hover {
+  color: black;
+  background-color: greenyellow;
+}
+
+.newPostForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.newPostForm label {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.newPostForm input {
+  padding: 10px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.newPostForm textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  padding: 10px;
+}
+
+.missing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.missing h2 {
+  margin-bottom: 20px;
+}
+
+.missing a:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+

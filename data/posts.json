@@ -1,0 +1,20 @@
+{
+  "posts" : [
+    {
+      "id": 1,
+      "title": "1st Example Post",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, quidem."
+    },
+    {
+      "id": 2,
+      "title": "2nd Example Post",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, quidem."
+    },
+    {
+      "id": 3,
+      "title": "3rd Example Post",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, quidem."
+    }
+  ]
+}
+
